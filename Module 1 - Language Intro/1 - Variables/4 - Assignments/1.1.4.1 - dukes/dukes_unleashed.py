@@ -13,7 +13,19 @@ Note: this problem does not require the "compounding interest" formula from the 
 """
 
 ### Your code here ###
+#define variables for in state
+in_state_principal= 30792
+rate= 0.05
+#n= # of years, since we are only looking for one year, n=1
+n=1
+ten_year_final = (in_state_principal/rate)
 
-in_state_gift = 0
+#define variables for out of state
+out_of_state_principal=47882
+rate= 0.05  
+n=1
+twenty_year_final= (out_of_state_principal/rate)
 
-out_state_gift = 0
+#printing the values
+print(ten_year_final)
+print(twenty_year_final)

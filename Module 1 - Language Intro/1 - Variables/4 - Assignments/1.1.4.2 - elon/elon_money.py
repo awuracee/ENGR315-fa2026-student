@@ -13,10 +13,19 @@ Note that Elon's capital will be $33B.
 """
 
 ### all your code below ###
+#tenyrperiod
+principal= 44000000000
+rate10yrs=0.0396
+n10yrs=10
 
+#twentyyrperiod
+principal2= 44000000000
+rate20yrs=0.0432
+n20yrs=20
 
 # final answer for 10-year
-ten_year_final = None
-
+ten_year_final = (principal*((1+rate10yrs/100))**n10yrs)
+print(ten_year_final)
 # final answer for 20-year
-twenty_year_final = None
+twenty_year_final = (principal2*((1+rate20yrs/100))**n20yrs)
+print(twenty_year_final)

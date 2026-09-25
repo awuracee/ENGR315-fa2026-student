@@ -11,5 +11,9 @@ print("Hold for ", n,  " years")
 final = principal * ((1 + (rate / 100)) ** n)
 
 # fancy print the output with two decimal places for floating number
-print(f"Final value after is ${final:.2f}")
 
+#trying to print out the name of the user
+name= "bre"
+name2= "akua akyaa"
+name3= "yeboah"
+print(name, name2, name3)
